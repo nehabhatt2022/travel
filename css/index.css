@@ -2,11 +2,9 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        /* border: 2px solid black; */
 }
 
 .border {
-        /* border: 1px solid; */
         border-radius: 5px;
         box-shadow: 5px 5px 15px gray;
 }
@@ -20,18 +18,10 @@
         font-family: cardo;
 }
 
-/* .font-family1 {
-        font-family: cardo;
-} */
-
 @font-face {
         font-family: lato;
         src: url(../font/Lato2OFL/Lato2OFL/Lato-Light.ttf);
 }
-
-/* .font-family2 {
-        font-family: lato;
-} */
 
 h2,
 h3 {
@@ -53,7 +43,7 @@ p {
 }
 
 .container {
-        max-width: 100%;
+        max-width: 95%;
         margin: 0 auto;
         overflow: hidden;
 }
@@ -265,7 +255,7 @@ p {
 
 .sec4-text h3 {
         font-size: 20px;
-        padding: 10px 0;
+        padding: 10px 1px;
 }
 
 .sec4-text h2 u {
@@ -300,11 +290,11 @@ p {
 }
 
 .sec5-text-1 {
-        width: 40%;
+        width: 100%;
 }
 
 .sec5-text-2 {
-        width: 60%;
+        width: 100%;
 }
 
 .sec5-text-1 h2 {
@@ -329,11 +319,16 @@ p {
 /* ---------------------------------------------------- */
 .sec6 {
         padding: 20px;
+        overflow: hidden;
 }
 
 .sec6-1 {
         width: 100%;
         margin: 0 auto;
+}
+
+.sec6-text-1 {
+        overflow: hidden;
 }
 
 .sec6-text-1 h2 {
